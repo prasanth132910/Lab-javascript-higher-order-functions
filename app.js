@@ -49,9 +49,7 @@ console.log(findSquareOfNumbers(myArray));
 // Reduce
 function multiply(map)
 {
-let sum = map.reduce(function (i, element) {
-    return i + element;
-});
-    console.log(sum);
+let Reduce = map.reduce((i, element) => i + element );
+    console.log(Reduce);
 }
 multiply(findSquareOfNumbers(myArray));
